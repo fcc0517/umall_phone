@@ -1,0 +1,349 @@
+body {
+  background: #f1f1f1;
+}
+.ushop {
+  position: relative;
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.ushop header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0.9rem;
+  background: #fff;
+}
+.ushop header .logo a {
+  display: flex;
+}
+.ushop header .logo a img {
+  width: 2.05rem;
+  height: 0.41rem;
+}
+.ushop header form {
+  display: flex;
+}
+.ushop header form #search {
+  width: 3.92rem;
+  height: 0.48rem;
+  background: #eeeeee;
+  border-radius: 0.48rem;
+  padding-left: 0.28rem;
+}
+.ushop header form #search::placeholder {
+  font-size: 0.2rem;
+  color: #757575;
+}
+.ushop header form button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.28rem;
+  margin-left: 0.36rem;
+}
+.ushop article {
+  position: relative;
+  background: #fff;
+  width: 6.75rem;
+  overflow-x: auto;
+}
+.ushop article::-webkit-scrollbar {
+  /* 隐藏滚动条 */
+  display: none;
+}
+.ushop article ul {
+  height: 0.77rem;
+  line-height: 0.77rem;
+  /* padding-right: 0.2rem; */
+  /* display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center; */
+  list-style: none;
+  display: flex;
+  white-space: nowrap;
+  width: 100%;
+  padding-left: .1rem;
+}
+.ushop article ul li {
+  margin-right: 0.2rem;
+}
+.ushop article ul li a {
+  font-size: 0.28rem;
+  color: #333333;
+  padding-bottom: 0.18rem;
+}
+.ushop article button {
+  border: none;
+  outline: none;
+  position: fixed;
+  right: 0;
+  top: 1rem;
+  width: 0.75rem;
+  height: 0.77rem;
+  font-size: 0.28rem;
+  color: #c2c2c2;
+  background: #fff;
+  box-shadow: -0.15rem 0 0.1rem -0.15rem rgba(0, 0, 0, 0.3);
+}
+.ushop .banner a img {
+  width: 100%;
+}
+.ushop .limit {
+  background: #fff;
+}
+.ushop .limit ul {
+  height: 1.79rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ushop .limit ul li a {
+  height: 1.06rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.ushop .limit ul li a img {
+  width: 0.56rem;
+  height: 0.55rem;
+}
+.ushop .limit ul li a span {
+  font-size: 0.27rem;
+  color: #7d7d7d;
+}
+.ushop .content {
+  display: flex;
+  margin-top: 0.3rem;
+  background: #fff;
+}
+.ushop .content .content-left {
+  width: 3.33rem;
+  height: 3.78rem;
+}
+.ushop .content .content-left .cont-top {
+  display: flex;
+  align-items: center;
+  padding: 0.04rem 0;
+}
+.ushop .content .content-left .cont-top img {
+  width: 0.32rem;
+  height: 0.32rem;
+  margin: 0 0.17rem 0 0.13rem;
+}
+.ushop .content .content-left .cont-top .title {
+  font-size: 0.28rem;
+  color: #fb2c70;
+  font-weight: bold;
+}
+.ushop .content .content-left .ever {
+  line-height: 0.26rem;
+  font-size: 0.2rem;
+  color: #999999;
+  margin-left: 0.2rem;
+}
+.ushop .content .content-left .time {
+  display: flex;
+  align-items: center;
+  font-size: 0.25rem;
+  color: #000000;
+  margin: 0.07rem 0.2rem;
+}
+.ushop .content .content-left .time span {
+  display: inline-block;
+  width: 0.42rem;
+  line-height: 0.42rem;
+  font-size: 0.2rem;
+  color: #fff;
+  text-align: center;
+  background: #27272f;
+  border-radius: 0.07rem;
+}
+.ushop .content .content-left .time i {
+  padding: 0 0.05rem;
+}
+.ushop .content .content-left .time em {
+  display: inline-block;
+  width: 0.96rem;
+  line-height: 0.4rem;
+  font-size: 0.25rem;
+  text-align: center;
+  color: #17112a;
+  background: url(../images/index/bg.jpg);
+  background-size: cover;
+  margin-left: 0.25rem;
+}
+.ushop .content .content-left .desc-img {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.ushop .content .content-left .desc-img a img {
+  width: 2.9rem;
+  height: 2.01rem;
+}
+.ushop .content .content-right {
+  margin-left: 0.8rem;
+}
+.ushop .content .content-right .title-top {
+  display: flex;
+  margin-top: 0.2rem;
+  height: 1.88rem;
+}
+.ushop .content .content-right .title-top .new-left {
+  padding-left: 0.2rem;
+  border-left: 0.01rem solid #f0f0f0;
+}
+.ushop .content .content-right .title-top .new-left h3 {
+  font-size: 0.28rem;
+  font-weight: bold;
+  color: #fb2c70;
+}
+.ushop .content .content-right .title-top .new-left p {
+  font-size: 0.2rem;
+  color: #999999;
+  margin: 0.1rem 0 0.28rem 0;
+}
+.ushop .content .content-right .title-top .new-left img {
+  width: 0.77rem;
+  height: 0.38rem;
+}
+.ushop .content .content-right .title-top .new-right {
+  padding-left: 0.23rem;
+  height: 1.88rem;
+}
+.ushop .content .content-right .title-top .new-right img {
+  width: 1.3rem;
+  height: 1.8rem;
+}
+.ushop .content .content-right .title-bottom {
+  border-top: 0.01rem solid #f0f0f0;
+  display: flex;
+  width: 100%;
+}
+.ushop .content .content-right .title-bottom .day {
+  border-left: 0.01rem solid #f0f0f0;
+  width: 1.57rem;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  text-align: center;
+}
+.ushop .content .content-right .title-bottom .day h3 {
+  text-align: left;
+  font-size: 0.26rem;
+  color: #fb2c70;
+  font-weight: bold;
+}
+.ushop .content .content-right .title-bottom .day p {
+  text-align: left;
+  font-size: 0.2rem;
+  color: #999999;
+}
+.ushop .content .content-right .title-bottom .day img {
+  width: 0.73rem;
+  height: 1.05rem;
+}
+.ushop .content .content-right .title-bottom .day .img_2 {
+  width: 1.11rem;
+  height: 0.93rem;
+}
+.ushop .bar {
+  margin: 0.3rem 0;
+}
+.ushop .bar img {
+  width: 7.5rem;
+  height: 1.87rem;
+}
+.ushop .fire-box {
+  padding-bottom: 1.17rem;
+  background: #fff;
+}
+.ushop .fire-box .fire {
+  padding: 0.2rem 0;
+}
+.ushop .fire-box .fire ul {
+  padding: 0 0.2rem;
+  display: flex;
+}
+.ushop .fire-box .fire ul li {
+  width: 1.76rem;
+  line-height: 0.68rem;
+  text-align: center;
+  border: 0.01rem solid #e4e4e4;
+}
+.ushop .fire-box .fire ul li:nth-of-type(1),
+.ushop .fire-box .fire ul li:nth-of-type(2),
+.ushop .fire-box .fire ul li:nth-of-type(3) {
+  border-right: none;
+}
+.ushop .fire-box .fire ul li a {
+  font-size: 0.28rem;
+  color: #333333;
+}
+.ushop .fire-box .fire ul li:hover {
+  background: #f26b11;
+  border-color: #f26b11;
+}
+.ushop .fire-box .fire ul li:hover a {
+  color: #fff;
+}
+.ushop .fire-box .list {
+  background: #fff;
+}
+.ushop .fire-box .list ul {
+  background: #fff;
+}
+.ushop .fire-box .list ul li {
+  width: 7.09rem;
+  height: 2.99rem;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 0.34rem;
+  padding-top: 0.4rem;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.4);
+}
+.ushop .fire-box .list ul li a {
+  display: flex;
+}
+.ushop .fire-box .list ul li a img {
+  margin-left: 0.32rem;
+  width: 2.19rem;
+  height: 2.19rem;
+}
+.ushop .fire-box .list ul li a .desc {
+  position: relative;
+  width: 3.94rem;
+  margin-left: 0.27rem;
+}
+.ushop .fire-box .list ul li a .desc h4 {
+  font-size: 0.24rem;
+  color: #000000;
+  margin: 0.06rem 0;
+}
+.ushop .fire-box .list ul li a .desc p {
+  line-height: 0.34rem;
+  font-size: 0.24rem;
+  color: #7d7d7d;
+}
+.ushop .fire-box .list ul li a .desc .money {
+  font-size: 0.32rem;
+  color: #f36b11;
+  margin: 0.38rem 0 0.21rem 0;
+}
+.ushop .fire-box .list ul li a .desc del {
+  font-size: 0.24rem;
+  color: #959595;
+}
+.ushop .fire-box .list ul li a .desc .must {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1.64rem;
+  line-height: 0.52rem;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #ffffff;
+  background: #f26b11;
+  border-radius: 0.05rem;
+}

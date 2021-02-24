@@ -1,0 +1,111 @@
+.search {
+  position: relative;
+  width: 100%;
+  max-width: 7.5rem;
+  margin: 0 auto;
+  padding: 0 0.2rem 1.8rem;
+}
+.search header {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search header img {
+  width: 0.18rem;
+  height: 0.29rem;
+}
+.search header h3 {
+  line-height: 0.62rem;
+  font-size: 0.36rem;
+  color: #333333;
+}
+.search header span {
+  font-size: 0.36rem;
+  color: #333333;
+}
+.search .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.23rem;
+  height: 0.77rem;
+  line-height: 0.79rem;
+  background: #f26b11;
+  border-radius: 0.4rem;
+  margin: 0.11rem auto 0.18rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.search .search-box img {
+  width: 0.28rem;
+  height: 0.28rem;
+}
+.search .search-box em {
+  margin-left: 0.22rem;
+  font-size: 0.26rem;
+  color: #fff;
+}
+.search .list-box .list-min {
+  height: 2.02rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.23rem;
+  border-bottom: 0.01rem solid #d1d1d1;
+}
+.search .list-box .list-min img {
+  width: 1.55rem;
+  height: 1.56rem;
+}
+.search .list-box .list-min .desc {
+  width: 4.84rem;
+}
+.search .list-box .list-min .desc h4 {
+  font-size: 0.26rem;
+}
+.search .list-box .list-min .desc p {
+  font-size: 0.3rem;
+  color: #e43a3d;
+  margin: 0.23rem 0;
+}
+.search .list-box .list-min .desc h5 {
+  font-size: 0.24rem;
+  color: #999999;
+}
+.search .nav-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 7.5rem;
+  height: 1.16rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.01rem solid #ebebeb;
+  background: #fff;
+  margin-left: -3.75rem;
+}
+.search .nav-bottom a {
+  text-align: center;
+  height: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.search .nav-bottom a em {
+  font-size: 0.4rem;
+  color: #333333;
+}
+.search .nav-bottom a span {
+  font-size: 0.21rem;
+  color: #333333;
+}
+.search .nav-bottom a:hover em {
+  color: #f26b11;
+}
+.search .nav-bottom a:hover span {
+  color: #f26b11;
+}

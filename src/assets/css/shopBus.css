@@ -1,0 +1,207 @@
+.shopBus {
+  position: relative;
+  width: 100%;
+  max-width: 7.5rem;
+  margin: 0 auto;
+  padding-bottom: 2.3rem;
+}
+.shopBus header {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.2rem;
+  background: #f26b11;
+}
+.shopBus header img {
+  width: 0.18rem;
+  height: 0.29rem;
+}
+.shopBus header h3 {
+  line-height: 0.62rem;
+  font-size: 0.36rem;
+  color: #fff;
+}
+.shopBus header span {
+  font-size: 0.36rem;
+  color: #ffffff;
+}
+.shopBus .list ul li {
+  display: flex;
+  overflow: auto;
+  margin: 0.3rem 0 0.26rem;
+}
+.shopBus .list ul li::-webkit-scrollbar {
+  display: none;
+}
+.shopBus .list ul li::-moz-scrollbar {
+  display: none;
+}
+.shopBus .list ul li a {
+  width: 7.51rem;
+  height: 1.72rem;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.31rem 0 0.24rem;
+  flex-shrink: 0;
+}
+.shopBus .list ul li a .lis-left {
+  display: flex;
+  align-items: center;
+}
+.shopBus .list ul li a .lis-left input[type="checkbox"] {
+  width: 0.34rem;
+  height: 0.34rem;
+}
+.shopBus .list ul li a .lis-left img {
+  width: 1.03rem;
+  height: 1.05rem;
+  margin-left: 0.43rem;
+  margin-right: 0.34rem;
+}
+.shopBus .list ul li a .lis-left .desc h4 {
+  font-size: 0.26rem;
+  margin-bottom: 0.2rem;
+}
+.shopBus .list ul li a .lis-left .desc p {
+  font-size: 0.23rem;
+  color: #666666;
+  margin: 0.29rem 0 0.25rem;
+}
+.shopBus .list ul li a .lis-left .desc .money {
+  font-size: 0.26rem;
+  color: #e3393c;
+}
+.shopBus .list ul li a .lis-right {
+  font-size: 0;
+  text-align: center;
+}
+.shopBus .list ul li a .lis-right span {
+  font-size: 0.12rem;
+  display: inline-block;
+  width: 0.62rem;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  border: 0.01rem solid #515151;
+  border-radius: 0.05rem 0 0 0.05rem;
+}
+.shopBus .list ul li a .lis-right i {
+  font-size: 0.12rem;
+  display: inline-block;
+  width: 0.79rem;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  border: 0.01rem solid #515151;
+  border-left: none;
+  border-right: none;
+}
+.shopBus .list ul li a .lis-right b {
+  font-size: 0.12rem;
+  display: inline-block;
+  width: 0.67rem;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  border: 0.01rem solid #515151;
+  border-radius: 0 0.05rem 0.05rem 0;
+}
+.shopBus .list ul li .del {
+  flex-shrink: 0;
+  width: 0.98rem;
+  height: 1.72rem;
+  line-height: 1.72rem;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #fff;
+  background: #e43a3d;
+}
+.shopBus .bus-bottom {
+  position: fixed;
+  bottom: 1.16rem;
+  width: 100%;
+  left: 50%;
+  margin-left: -3.75rem;
+  max-width: 7.5rem;
+  height: 1.14rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 0.24rem;
+  justify-content: space-between;
+}
+.shopBus .bus-bottom .fot-left {
+  display: flex;
+  align-items: center;
+}
+.shopBus .bus-bottom .fot-left #bott {
+  width: 0.34rem;
+  height: 0.34rem;
+}
+.shopBus .bus-bottom .fot-left span {
+  margin-left: 0.15rem;
+  font-size: 0.22rem;
+}
+.shopBus .bus-bottom .fot-right {
+  height: 1.14rem;
+  display: flex;
+  align-items: center;
+}
+.shopBus .bus-bottom .fot-right .min-one .num {
+  font-size: 0.28rem;
+}
+.shopBus .bus-bottom .fot-right .min-one .num em {
+  color: #e43a3b;
+}
+.shopBus .bus-bottom .fot-right .min-one .sale {
+  font-size: 0.2rem;
+  color: #a4a4a4;
+  margin-top: 0.17rem;
+}
+.shopBus .bus-bottom .fot-right .min-two a {
+  display: block;
+  width: 2.47rem;
+  height: 1.14rem;
+  text-align: center;
+  font-size: 0.28rem;
+  color: #fff;
+  line-height: 1.14rem;
+  background: #f26b11;
+  margin-left: 0.38rem;
+}
+.shopBus .nav-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 7.5rem;
+  height: 1.16rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.01rem solid #ebebeb;
+  background: #fff;
+  margin-left: -3.75rem;
+}
+.shopBus .nav-bottom a {
+  text-align: center;
+  height: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.shopBus .nav-bottom a em {
+  font-size: 0.4rem;
+  color: #333333;
+}
+.shopBus .nav-bottom a span {
+  font-size: 0.21rem;
+  color: #333333;
+}
+.shopBus .nav-bottom a:hover em {
+  color: #f26b11;
+}
+.shopBus .nav-bottom a:hover span {
+  color: #f26b11;
+}
